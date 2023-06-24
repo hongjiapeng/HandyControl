@@ -801,4 +801,10 @@
   <data name="AutoCompleteTextBox" xml:space="preserve">
     <value>自动补全文本框</value>
   </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>水印</value>
+  </data>
+  <data name="CloseMainWindowDialog" xml:space="preserve">
+    <value>关闭主窗口对话框</value>
+  </data>
 </root>

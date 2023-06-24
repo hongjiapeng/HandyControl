@@ -801,4 +801,10 @@
   <data name="AutoCompleteTextBox" xml:space="preserve">
     <value>AutoCompleteTextBox</value>
   </data>
+  <data name="Watermark" xml:space="preserve">
+    <value>Watermark</value>
+  </data>
+  <data name="CloseMainWindowDialog" xml:space="preserve">
+    <value>Close main window dialog</value>
+  </data>
 </root>

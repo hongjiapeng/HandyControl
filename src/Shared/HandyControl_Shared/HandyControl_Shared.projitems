@@ -16,16 +16,20 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\DropDownElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\EdgeElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\GridAttach.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\GridViewAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\IconElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\IconSwitchElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\ImageAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\InfoElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\ListBoxAttach.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\MenuAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\MenuTopLineAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\PanelElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\PasswordBoxAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\RectangleAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\ScrollViewerAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\TextBlockAttach.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Attach\ToggleButtonAttach.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Base\AdornerElement.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Block\FloatingBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Block\RunningBlock\RunningBorder.cs" />
@@ -52,6 +56,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Other\Poptip.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Other\Watermark.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel\AxleCanvas.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel\ClipGrid.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel\FlexPanel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel\ElementGroup.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel\SimpleStackPanel.cs" />
@@ -72,6 +77,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\PropertyGrid\PropertyItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\PropertyGrid\PropertyItemsControl.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\PropertyGrid\PropertyResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Ribbon\Ribbon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Ribbon\RibbonGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Ribbon\RibbonTab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Ribbon\RibbonTabHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Ribbon\RibbonTabHeaderItemsControl.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Screenshot\Screenshot.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Other\Sprite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Block\ToggleBlock.cs" />
@@ -82,9 +92,18 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Slider\RangeSlider\RangeThumb.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Slider\RangeSlider\TwoWayRangeBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Block\RunningBlock\RunningBlock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\TabControl\SlidingTabContainer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Tag\TagContainer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Text\HighlightTextBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Text\SimpleText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Enum\GrowlShowMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Enum\LinearLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Enum\RunningDirection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\EventToCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\IEventArgsConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\MouseDragElementBehaviorEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\Converter\Object2BooleanReConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\Helper\FullScreenHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Window\GlowWindow.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\EnumItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\PanelUvSize.cs" />
@@ -186,7 +205,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\ComboBox.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\DatePicker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\DateTimePicker.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\IDataInput.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\NumericUpDown.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\PasswordBox.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Input\SearchBar.cs" />
@@ -240,7 +258,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Time\TimeBar\SpeTextBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Time\TimeBar\TimeBar.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Transfer\Transfer.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Controls\Transfer\TransferGroup.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Transfer\TransferItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Window\BlurWindow.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\Window\ImageBrowser.cs" />
@@ -280,73 +297,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Data\ResourceToken.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\Info\SystemVersionInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\ValueBoxes.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\BezierCurveFlattener.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\CommonExtensions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\ExceptionStringTable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\GeometryHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\MarchLocation.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\MarchStopReason.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\MathHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PathFigureHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PathGeometryHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PathSegmentData.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PathSegmentHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PolylineData.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\PolylineHelper.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\RandomEngine.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Drawing\SimpleSegment.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\ArcGeometrySource.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\DrawingPropertyChangedEventArgs.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\DrawingPropertyMetadata.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\DrawingPropertyMetadataOptions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\GeometryEffect.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\GeometryEffectConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\GeometrySource`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\IArcGeometrySourceParameters.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\IGeometrySource.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\IGeometrySourceExtensions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\IGeometrySourceParameters.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\InvalidateGeometryReasons.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\IShape.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\SketchGeometryEffect.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Media\UnitType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Shapes\Arc.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Expression\Shapes\PrimitiveShape.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\AdornerContainer.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\AttachableCollection`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\Behavior`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\Behavior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\BehaviorCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Commands\ControlCommands.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\DefaultTriggerAttribute.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\EventToCommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\EventTrigger.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\EventTriggerBase`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\EventTriggerBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\ExceptionStringTable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\ExtendedVisualStateManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\FluidMoveBehavior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\FluidMoveBehaviorBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\FluidMoveScope.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\IAttachedObject.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\IEventArgsConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Interaction.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\InvokeCommandAction.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\MouseDragElementBehavior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\NameResolvedEventArgs.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\NameResolver.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\PreviewInvokeEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Commands\PushMainWindow2TopCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interactivity\RoutedEventTrigger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Commands\ShutdownAppCommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TagType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TransitionEffect.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TriggerAction`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TriggerAction.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TriggerActionCollection.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TriggerBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TriggerCollection.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\TypeConstraintAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Converter\Boolean2BooleanReConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Converter\Boolean2StrConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Converter\Boolean2VisibilityReConverter.cs" />
@@ -403,7 +357,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Interop\InteropValues.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Interop\Handle\SafeFileMappingHandle.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\Interop\Handle\WpfSafeHandle.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interactivity\Behavior\MouseDragElementBehaviorEx.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Collections\Pool\IPool`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Collections\Pool\SimplePool`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Collections\Pool\SynchronizedPool`1.cs" />
@@ -413,6 +366,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Tools\StyleSelector\ButtonGroupItemStyleSelector.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\StyleSelector\ComboBoxItemCapsuleStyleSelector.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tools\StyleSelector\TabItemCapsuleStyleSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\ValidationRule\NoBlankTextRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\ValidationRule\RegexRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Themes\Basic\Behaviors.xaml">
@@ -427,10 +382,22 @@
     <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Base\AutoCompleteTextBoxBaseStyle.xaml">
       <SubType>Designer</SubType>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Base\ItemsPanelTemplate.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Base\ElementGroupBaseStyle.xaml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Base\ListViewBaseStyle.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Base\DataGridBaseStyle.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Themes\Styles\ElementGroup.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Themes\Styles\Ribbon.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Themes\XamlCombine.exe" />
